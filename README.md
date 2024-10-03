@@ -47,24 +47,27 @@ This repository contains the front-end codebase for SumAlpha AI, built with mode
 
    a. Setting Up Node.js Env
 
-   ````bash
+   ```bash
    nvm install 18
    nvm use 18
+   ```
 
    b. Install All Dependencies
    ```bash
    npm install
+   ```
 
    c. Create an ".env.local" file in the project root
    ```bash
    touch .env.local
+   ```
 
    d. Add Necessary Environment Variables in .env.local:
+   ```bash
    NEXT_PUBLIC_API_URL=http://localhost:8000/api
+   ```
 
-   ````
-
-3. **Recommended VS Code Extensions**
+4. **Recommended VS Code Extensions**
 
    - Install ESLint Extension
    - Install Prettier Extension
@@ -78,21 +81,26 @@ This repository contains the front-end codebase for SumAlpha AI, built with mode
 
 ````bash
 npm run dev
+````
 
 - **Lint Code**
 ```bash
 npm run lint
+```
 
 - **Run Tests**
 ```bash
 npm run test
+```
 
 - **Build Code for Produciton**
 ```bash
 npm run build
+```
 
 - **Start Production Server**
 ```bash
 npm run start
+```
 
 ````
