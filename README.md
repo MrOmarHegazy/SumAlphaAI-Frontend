@@ -75,7 +75,7 @@ This repository contains the front-end codebase for SumAlpha AI, built with mode
    - Install TypeScript Importer Extension
    - Install GitLens
 
-### Running the Page
+## Useful Commands
 
 - **Running the Development Server:**
 
@@ -102,5 +102,3 @@ npm run build
 ```bash
 npm run start
 ```
-
-````
